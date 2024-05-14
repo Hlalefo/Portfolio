@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 96px;
+    line-height: 1.5px;
 }
 
 h2 {
@@ -19,23 +20,20 @@ p {
     line-height: 30px;
 }
 
-.hero {
-    background: #f9f7fe;
-    text-align: center;
-    padding: 160px 20px;
-}
+
 
 .hero p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
     color: #272142;
+    line-height: 1;
 }
 
 .hero h2 {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 24px;
 }
 
@@ -56,5 +54,23 @@ btn-branding-outline {
 }
 
 .project-description {
-    padding: 0 30px 0;
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    .project-description {
+        padding: 0;
+        text-alignment: center;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
 }
