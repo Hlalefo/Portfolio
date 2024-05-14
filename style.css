@@ -46,3 +46,10 @@ p {
     line-height: 27px;
     padding: 12px 20px;
 }
+
+btn-branding-outline {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
